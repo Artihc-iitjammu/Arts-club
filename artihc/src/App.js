@@ -8,6 +8,7 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
+import ParticlesBg  from "particles-bg";
 
 class App extends Component {
 
@@ -56,26 +57,30 @@ class App extends Component {
     console.log(this.state)
   }
   clickColor3=async(event)=>{
-    await this.setState({color1:'red', color2:'green',color3:'black',color4:'yellow',color5:'white',color6:'grey'})
+    await this.setState({color1:'#f7e9b5', color2:'#134fb0',color3:'#13175e',color4:'#f5affa',color5:'#f059b8',color6:'white'})
     console.log(this.state)
   }
 
   render() {
     return (
       <div className="App">
-         <div className="container" style={{margin:'auto', marginTop:50, textAlign:'center'}}>
-      <div className="row" style={{color:'green', fontSize:18,  textAlign:'center', margin:10}}>
-      <div className= "col-xs-4" style={{borderStyle:'solid',borderWidth:10, textAlign:'center', color:'white'}} onClick={this.clickColor1} >
-      <button style={{height:40,  width: 40,  backgroundColor: 'blue',  borderRadius: '50%',display: 'inline-block'}}></button>
-      </div>
-      <div className= "col-xs-4" style={{borderStyle:'solid',borderWidth:10,textAlign:'center',color:'white'}} onClick={this.clickColor2} >
-      <button style={{height:40,  width: 40,  backgroundColor: 'cyan',  borderRadius: '50%',display: 'inline-block'}}></button> 
-      </div>
-      <div className= "col-xs-4" style={{borderStyle:'solid',borderWidth:10, textAlign:'center',color:'white'}} onClick={this.clickColor3} >
-      <button style={{height:40,  width: 40,  backgroundColor: 'green',  borderRadius: '50%',display: 'inline-block'}}></button> 
-      </div>
-      </div>
-      </div>
+      <nav id="nav-wrap" style={{backgroundColor:'black'}}>
+         <a className="mobile-btn" href="#nav-wrap" title="Show navigation" >Show navigation</a>
+	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" className="nav">
+            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+            <li><a className="smoothscroll" href="#about" style={{color:'rgb(108, 245, 66)'}}>About</a></li>
+	         <li><a className="smoothscroll" href="#resume" style={{color:'rgb(108, 245, 66)'}}>Resume</a></li>
+            <li><a className="smoothscroll" href="#portfolio" style={{color:'rgb(108, 245, 66)'}}>Works</a></li>
+            <li><a className="smoothscroll" href="#contact" style={{color:'rgb(108, 245, 66)'}}>Contact</a></li>
+
+            <li><button style={{height:40,  width: 40,  textAlign:'right', backgroundColor: 'blue', margin:10, borderRadius: '50%',display: 'inline-block'}} onClick={this.clickColor1}></button></li>
+            <li><button style={{height:40,  width: 40,  textAlign:'right', backgroundColor: 'cyan', margin:10,  borderRadius: '50%',display: 'inline-block'}} onClick={this.clickColor2}></button> </li>
+            <li><button style={{height:40,  width: 40,  textAlign:'right', backgroundColor: 'green',  margin:10, borderRadius: '50%',display: 'inline-block'}} onClick={this.clickColor3}></button></li>
+         </ul>
+      </nav>
+         
       
         <Header colorinfo={this.state.color1} data={this.state.resumeData.main}/>
         <About colorinfo={this.state.color2} data={this.state.resumeData.main}/>

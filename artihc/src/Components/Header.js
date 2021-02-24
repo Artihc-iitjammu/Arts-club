@@ -22,18 +22,7 @@ class Header extends Component {
     return (
       <header style={{backgroundColor:this.props.colorinfo}} id="home" >
       
-      <nav id="nav-wrap" style={{backgroundColor:'black'}}>
-         <a className="mobile-btn" href="#nav-wrap" title="Show navigation" >Show navigation</a>
-	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#about" style={{color:'rgb(108, 245, 66)'}}>About</a></li>
-	         <li><a className="smoothscroll" href="#resume" style={{color:'rgb(108, 245, 66)'}}>Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio" style={{color:'rgb(108, 245, 66)'}}>Works</a></li>
-            <li><a className="smoothscroll" href="#contact" style={{color:'rgb(108, 245, 66)'}}>Contact</a></li>
-         </ul>
-      </nav>
+      
 
 
       <div className="row banner" style={{height:'auto', padding:45}}>

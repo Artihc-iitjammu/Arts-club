@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import logo from './artihc.png';
 class About extends Component {
   render() {
 
@@ -20,30 +20,24 @@ class About extends Component {
       <section style={{backgroundColor:this.props.colorinfo}} id="about">
       <div  className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Nordic Giant Profile Pic" />
+            <img className="profile-pic"  src={logo} alt="Artihc logo" />
          </div>
          <div className="nine columns main-col">
-            <h2>About Me</h2>
 
-            <p>{bio}</p>
-            <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
-					   </p>
-               </div>
-               <div className="columns download">
-                  <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
-                  </p>
-               </div>
-            </div>
+            <h1 style={{color:'white', fontSize:50,fontFamily:'Times New Roman'}}><u><i> About us </i></u></h1>
+
+            <p style={{color:'white',fontSize:20,fontFamily:'yellowtail'}} font>The Artihc Club is a place for practicing artists to improvise
+                skills, develop techniques and collaborate with other art
+                enthusiasts through group events that will beautify not only the
+                college but also the community.
+                Moreover it encourages artists to express their thoughts,feelings
+                and creativity through visual art forms.
+                'Artihc’, as the club is named, is full of these crazy people you
+                will find doing all sorts of creative stuff. it is not just a club
+                consisting of the most creative people in the institute, it is a
+                family where you learn, teach and enjoy the art of making life
+                colourful.</p>
+            
          </div>
       </div>
 
