@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Arts-club/static/css/main.bab0b925.chunk.css",
+    "main.js": "/Arts-club/static/js/main.bfc2b05a.chunk.js",
+    "main.js.map": "/Arts-club/static/js/main.bfc2b05a.chunk.js.map",
+    "runtime-main.js": "/Arts-club/static/js/runtime-main.56dd2604.js",
+    "runtime-main.js.map": "/Arts-club/static/js/runtime-main.56dd2604.js.map",
+    "static/css/2.d0fdb7d3.chunk.css": "/Arts-club/static/css/2.d0fdb7d3.chunk.css",
+    "static/js/2.cf3f2b15.chunk.js": "/Arts-club/static/js/2.cf3f2b15.chunk.js",
+    "static/js/2.cf3f2b15.chunk.js.map": "/Arts-club/static/js/2.cf3f2b15.chunk.js.map",
+    "index.html": "/Arts-club/index.html",
+    "static/css/2.d0fdb7d3.chunk.css.map": "/Arts-club/static/css/2.d0fdb7d3.chunk.css.map",
+    "static/css/main.bab0b925.chunk.css.map": "/Arts-club/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.cf3f2b15.chunk.js.LICENSE.txt": "/Arts-club/static/js/2.cf3f2b15.chunk.js.LICENSE.txt",
+    "static/media/aniket.b416fe63.jpg": "/Arts-club/static/media/aniket.b416fe63.jpg",
+    "static/media/artihc.17db5e61.png": "/Arts-club/static/media/artihc.17db5e61.png",
+    "static/media/diksha.8c1e64a4.jpg": "/Arts-club/static/media/diksha.8c1e64a4.jpg",
+    "static/media/events1.a4cf6cc9.jpg": "/Arts-club/static/media/events1.a4cf6cc9.jpg",
+    "static/media/events10.6c5be61e.jpg": "/Arts-club/static/media/events10.6c5be61e.jpg",
+    "static/media/events11.1b983bed.jpg": "/Arts-club/static/media/events11.1b983bed.jpg",
+    "static/media/events12.0f6ab941.jpg": "/Arts-club/static/media/events12.0f6ab941.jpg",
+    "static/media/events2.b81788eb.jpg": "/Arts-club/static/media/events2.b81788eb.jpg",
+    "static/media/events3.462e34ac.jpg": "/Arts-club/static/media/events3.462e34ac.jpg",
+    "static/media/events4.e4f12218.jpg": "/Arts-club/static/media/events4.e4f12218.jpg",
+    "static/media/events5.62900467.jpg": "/Arts-club/static/media/events5.62900467.jpg",
+    "static/media/events6.a0915197.jpg": "/Arts-club/static/media/events6.a0915197.jpg",
+    "static/media/events7.6ff6ceea.jpg": "/Arts-club/static/media/events7.6ff6ceea.jpg",
+    "static/media/events8.8e988ead.jpg": "/Arts-club/static/media/events8.8e988ead.jpg",
+    "static/media/events9.6ff6ceea.jpg": "/Arts-club/static/media/events9.6ff6ceea.jpg",
+    "static/media/harshit.4d24e2f0.png": "/Arts-club/static/media/harshit.4d24e2f0.png",
+    "static/media/pulkit.123980e7.jpg": "/Arts-club/static/media/pulkit.123980e7.jpg",
+    "static/media/radhika.8f21cefa.jpg": "/Arts-club/static/media/radhika.8f21cefa.jpg",
+    "static/media/srinija.a16d9cba.jpg": "/Arts-club/static/media/srinija.a16d9cba.jpg",
+    "static/media/sriram.67079945.jpg": "/Arts-club/static/media/sriram.67079945.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.56dd2604.js",
+    "static/css/2.d0fdb7d3.chunk.css",
+    "static/js/2.cf3f2b15.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.bfc2b05a.chunk.js"
+  ]
+}

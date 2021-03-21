@@ -71,8 +71,8 @@ class App extends Component {
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about" style={{color:'rgb(108, 245, 66)'}}>About</a></li>
-	         <li><a className="smoothscroll" href="#resume" style={{color:'rgb(108, 245, 66)'}}>Resume</a></li>
-            <li><a className="smoothscroll" href="#portfolio" style={{color:'rgb(108, 245, 66)'}}>Works</a></li>
+	         <li><a className="smoothscroll" href="https://tarun-sharma27.github.io/Arts-club/single.html" style={{color:'rgb(108, 245, 66)'}}>Gallery</a></li>
+            <li><a className="smoothscroll" href="#portfolio" style={{color:'rgb(108, 245, 66)'}}>Events</a></li>
             <li><a className="smoothscroll" href="#contact" style={{color:'rgb(108, 245, 66)'}}>Contact</a></li>
 
             <li><button style={{height:40,  width: 40,  textAlign:'right', backgroundColor: 'blue', margin:10, borderRadius: '50%',display: 'inline-block'}} onClick={this.clickColor1}></button></li>
