@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Arts-club/static/css/main.bab0b925.chunk.css",
-    "main.js": "/Arts-club/static/js/main.bfc2b05a.chunk.js",
-    "main.js.map": "/Arts-club/static/js/main.bfc2b05a.chunk.js.map",
+    "main.js": "/Arts-club/static/js/main.1babb198.chunk.js",
+    "main.js.map": "/Arts-club/static/js/main.1babb198.chunk.js.map",
     "runtime-main.js": "/Arts-club/static/js/runtime-main.56dd2604.js",
     "runtime-main.js.map": "/Arts-club/static/js/runtime-main.56dd2604.js.map",
     "static/css/2.d0fdb7d3.chunk.css": "/Arts-club/static/css/2.d0fdb7d3.chunk.css",
-    "static/js/2.cf3f2b15.chunk.js": "/Arts-club/static/js/2.cf3f2b15.chunk.js",
-    "static/js/2.cf3f2b15.chunk.js.map": "/Arts-club/static/js/2.cf3f2b15.chunk.js.map",
+    "static/js/2.f4254746.chunk.js": "/Arts-club/static/js/2.f4254746.chunk.js",
+    "static/js/2.f4254746.chunk.js.map": "/Arts-club/static/js/2.f4254746.chunk.js.map",
     "index.html": "/Arts-club/index.html",
     "static/css/2.d0fdb7d3.chunk.css.map": "/Arts-club/static/css/2.d0fdb7d3.chunk.css.map",
     "static/css/main.bab0b925.chunk.css.map": "/Arts-club/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.cf3f2b15.chunk.js.LICENSE.txt": "/Arts-club/static/js/2.cf3f2b15.chunk.js.LICENSE.txt",
+    "static/js/2.f4254746.chunk.js.LICENSE.txt": "/Arts-club/static/js/2.f4254746.chunk.js.LICENSE.txt",
     "static/media/aniket.b416fe63.jpg": "/Arts-club/static/media/aniket.b416fe63.jpg",
     "static/media/artihc.17db5e61.png": "/Arts-club/static/media/artihc.17db5e61.png",
     "static/media/diksha.8c1e64a4.jpg": "/Arts-club/static/media/diksha.8c1e64a4.jpg",
@@ -36,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.56dd2604.js",
     "static/css/2.d0fdb7d3.chunk.css",
-    "static/js/2.cf3f2b15.chunk.js",
+    "static/js/2.f4254746.chunk.js",
     "static/css/main.bab0b925.chunk.css",
-    "static/js/main.bfc2b05a.chunk.js"
+    "static/js/main.1babb198.chunk.js"
   ]
 }
