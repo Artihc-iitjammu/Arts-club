@@ -9,6 +9,8 @@ import pulkit from './pulkit.jpg';
 import sriram from  './sriram.jpg';
 import radhika from './radhika.jpg';
 import { SocialIcon } from 'react-social-icons';
+import { Container } from 'react-bootstrap';
+import { Parallax } from 'react-scroll-parallax';
 
 class Resume extends Component {
 
@@ -49,6 +51,8 @@ class Resume extends Component {
 
     return (
       <section style={{backgroundColor:this.props.colorinfo}} id="resume">
+        <Container>
+        <h1 style={{fontSize:50,textAlign:'center'}}>Team</h1>
 
       <div style={{display:'flex', flexWrap:'wrap'}}>
         
@@ -60,7 +64,7 @@ class Resume extends Component {
                   ref={(r) => this.flippy = r} // to use toggle method like this.flippy.toggle()
                   // if you pass isFlipped prop component will be controlled component.
                   // and other props, which will go to div
-                  style={{ width: 250, height:400, margin:20 }} /// these are optional style, it is not necessary
+                  style={{ width: 230, height:400, margin:20 }} /// these are optional style, it is not necessary
                 >
                   <FrontSide
                     style={{backgroundColor: '#41669d', justifyContent:'center', textAlign:'center',paddingTop:180, fontSize:20, color:'white'}}
@@ -246,7 +250,7 @@ class Resume extends Component {
       
 
 
-      
+      </Container>
    </section>
     );
   }

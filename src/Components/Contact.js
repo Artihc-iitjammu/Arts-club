@@ -19,52 +19,40 @@ class Contact extends Component {
 
     return (
       <section id="contact" style={{backgroundColor:this.props.colorinfo}}>
-         <Container Fluid>
+         
+         <Container>
+            <h1>Contact Us</h1>
 
-         <div className="row section-head">
-
-            <div className="two columns header-col">
-
-               <h1><span></span></h1>
-
-            </div>
-
-            <div className="ten columns">
-
-                  <p className="lead"></p>
-
-            </div>
-
-         </div>
+         
 
          <div className="row">
             <div className="eight columns">
 
                <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
-
+               >
                   <div>
 						   
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" placeholder="Name" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
-
+              
                   <div>
 						   
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" placeholder="Email"  size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
                   </div>
-
+                  
                   <div>
 						   
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" placeholder="Subject" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
                   <div>
                      
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="4" defaultValue="" placeholder="Message" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit btn btn-danger">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
