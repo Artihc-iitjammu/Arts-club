@@ -10,7 +10,7 @@ class Footer extends Component {
     }
 
     return (
-      <footer style={{backgroundColor:this.props.colorinfo}}>
+      <footer style={{backgroundColor:this.props.colorinfo, display:'flex', justifyContent:'center'}}>
 
      <div className="row">
         <div className="twelve columns">
@@ -20,7 +20,7 @@ class Footer extends Component {
 
            <ul className="copyright">
               <li>&copy; Copyright Arts Club IIT Jammu</li>
-              <li>Design by <a title="Styleshout" href="http://www.styleshout.com/"></a></li>
+              <li>Designed by Tarun Sharma and Vishal Sharma</li>
            </ul>
 
         </div>

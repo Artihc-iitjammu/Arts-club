@@ -30,7 +30,7 @@ class Contact extends Component {
 
                <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
-               >
+               
                   <div>
 						   
 						   <input type="text" defaultValue="" placeholder="Name" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>

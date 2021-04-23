@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
+
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -26,29 +25,11 @@ class App extends Component {
       color6: 'cyan'
     };
 
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
+  
 
   }
 
-  getResumeData(){
-    $.ajax({
-      url:'./resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
 
-  componentDidMount(){
-    this.getResumeData();
-  }
   clickColor1=async(event)=>{
     await this.setState({color1: '#bee9e8',color2:'#62b6cb',color3:'#1b4965',color4:'#cae9ff',color5:'#5fa8d3',color6: 'cyan'})
     console.log(this.state)
@@ -83,12 +64,12 @@ class App extends Component {
       </nav>
          
       
-        <Header colorinfo={this.state.color1} data={this.state.resumeData.main}/>
-        <About colorinfo={this.state.color2} data={this.state.resumeData.main}/>
-        <Resume colorinfo={this.state.color3} data={this.state.resumeData.resume}/>
-        <Portfolio colorinfo={this.state.color4} data={this.state.resumeData.portfolio}/>
-        <Contact colorinfo={this.state.color5} data={this.state.resumeData.main}/>
-        <Footer colorinfo={this.state.color6} data={this.state.resumeData.main}/>
+        <Header colorinfo={this.state.color1} />
+        <About colorinfo={this.state.color2} />
+        <Resume colorinfo={this.state.color3} />
+        <Portfolio colorinfo={this.state.color4} />
+        <Contact colorinfo={this.state.color5} />
+        <Footer colorinfo={this.state.color6} />
       </div>
     );
   }
