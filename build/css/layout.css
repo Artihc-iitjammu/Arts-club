@@ -31,7 +31,7 @@ body { background: #0f0f0f; }
 header {
    position: relative;
    height: 800px;
-   min-height: 500px;
+   min-height: 100%;
    width: 100%;
    
    text-align: center;
@@ -1021,4 +1021,12 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+}
+.rowresume{
+   margin-left: 0px  !important;
+   margin-right: 0px  !important;
+}
+.col-md-4{
+   display: flex;
+   justify-content: center;
 }

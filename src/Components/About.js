@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './artihc.png';
+import './team.css';
 class About extends Component {
   render() {
 
@@ -17,7 +18,7 @@ class About extends Component {
     }
 
     return (
-      <section style={{backgroundColor:this.props.colorinfo}} id="about">
+      <section id="about">
       <div  className="row">
          <div className="three columns">
             <img className="profile-pic"  src={logo} alt="Artihc logo" />

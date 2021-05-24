@@ -15,6 +15,7 @@ import events9 from './events9.jpg';
 import events10 from './events10.jpg';
 import events11 from './events11.jpg';
 import events12 from './events12.jpg';
+import './team.css';
 
 
 
@@ -22,21 +23,21 @@ class Portfolio extends Component {
   render() {
 
     return (
-      <section style={{backgroundColor:this.props.colorinfo}} id="portfolio">
+      <section id="portfolio">
         <Container>
           <h1 style={{fontSize:50}}>Events</h1>
           <Row xs={2} md={4} lg={6}>
             <img src={events1} height="400" width="300" style={{margin:20, borderRadius:5}} />
             <img src={events2} height="400" width="300" style={{margin:20, borderRadius:5}} />
             <img src={events3} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events4} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events5} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events6} height="400" width="300" style={{margin:20, borderRadius:5}} />
             <img src={events7} height="400" width="300" style={{margin:20, borderRadius:5}} />
-
             <img src={events8} height="400" width="300" style={{margin:20, borderRadius:5}} />
             <img src={events9} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img src={events4} height="400" width="300" style={{margin:20, borderRadius:5}} />
+
+            <img src={events5} height="400" width="300" style={{margin:20, borderRadius:5}} />
             <img src={events10} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img src={events9} height="400" width="300" style={{margin:20, borderRadius:5}} />
             <img src={events11} height="400" width="300" style={{margin:20, borderRadius:5}} />
 
             <img src={events12} height="500" width="300" style={{margin:20, borderRadius:5}} />
