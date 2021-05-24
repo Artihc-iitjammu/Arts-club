@@ -26,21 +26,21 @@ class Portfolio extends Component {
       <section id="portfolio">
         <Container>
           <h1 style={{fontSize:50}}>Events</h1>
-          <Row xs={2} md={4} lg={6}>
-            <img src={events1} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events2} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events3} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events7} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events8} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events9} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events4} height="400" width="300" style={{margin:20, borderRadius:5}} />
+          <Row xs={1} md={4} lg={12}>
+            <img className="eventsimage" src={events1} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img className="eventsimage" src={events2} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img src={events3} height="400" className="eventsimage" width="300" style={{margin:20, borderRadius:5}} />
+            <img className="eventsimage" src={events7} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img className="eventsimage" src={events8} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img className="eventsimage" src={events9} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img className="eventsimage" src={events4} height="400" width="300" style={{margin:20, borderRadius:5}} />
 
-            <img src={events5} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events10} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events9} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events11} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img className="eventsimage" src={events5} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img className="eventsimage" src={events10} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img className="eventsimage" src={events9} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            <img className="eventsimage" src={events11} height="400" width="300" style={{margin:20, borderRadius:5}} />
 
-            <img src={events12} height="500" width="300" style={{margin:20, borderRadius:5}} />
+            <img className="eventsimage" src={events12} height="500" width="300" style={{margin:20, borderRadius:5}} />
            
           </Row>
 

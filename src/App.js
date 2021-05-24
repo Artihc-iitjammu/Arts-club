@@ -5,7 +5,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-//import Contact from './Components/Contact';
+import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import ParticlesBg  from "particles-bg";
 import { ParallaxProvider } from 'react-scroll-parallax';
@@ -54,12 +54,13 @@ class App extends Component {
       </nav>
          
       
-        <Header colorinfo={this.state.color1} />
-        <About colorinfo={this.state.color2} />
-        <Resume colorinfo={this.state.color3} />
-        <Portfolio colorinfo={this.state.color4} />
-        {/* <Contact colorinfo={this.state.color5} /> */}
-        <Footer colorinfo={this.state.color6} />
+        <Header/>
+        <About/>
+        <Resume/>
+        <Portfolio/>
+         <Contact/>
+        <Footer/>
+        
       </div>
     );
   }

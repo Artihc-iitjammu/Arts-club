@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container } from 'react-bootstrap';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
+import './team.css';
 
 class Contact extends Component {
   render() {
@@ -21,7 +22,7 @@ class Contact extends Component {
       <section id="contact" style={{backgroundColor:this.props.colorinfo}}>
          
          <Container>
-            <h1>Contact Us</h1>
+            
 
          
 
@@ -70,13 +71,9 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
-					   <h4></h4>
-					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
-					   </p>
+					   <div className="Address">
+                     
+                  </div>
 				   </div>
 
               

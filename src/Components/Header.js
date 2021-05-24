@@ -17,7 +17,7 @@ class Header extends Component {
       
 
 
-      <div className="row banner" style={{height:'auto', padding:45}}>
+      <div className="row banner" style={{height:'auto'}}>
       
          <div className="banner-text" >
         

@@ -27,7 +27,7 @@ class Resume extends Component {
         <h1 style={{fontSize:50, textAlign:'center'}}>Events</h1>
       <div className="rowresume" style={{display:'flex', flexWrap:'wrap'}}>
         
-          <div className="col-md-4 col-sm-6 col-xs-12"> 
+          <div className="col-md-4 col-sm-6 col-xs-12" > 
                   <Flippy
 
                   flipOnHover={false} // default false
@@ -39,12 +39,12 @@ class Resume extends Component {
                   style={{ width: 250, height:400, margin:20 }} /// these are optional style, it is not necessary
                 >
                   <BackSide
-                    style={{ justifyContent:'center', textAlign:'center',paddingTop:180, fontSize:20, color:'white'}}
+                    style={{backgroundColor: '#41669d', justifyContent:'center', textAlign:'center',paddingTop:180, fontSize:20, color:'white'}}
                   >
                     Club Coordinator
                   </BackSide>
-                  <FrontSide className="flip"
-                    style={{ textAlign:'center', fontSize:20}}>
+                  <FrontSide
+                    style={{ backgroundColor: '#41669d', textAlign:'center', fontSize:20, color:'white'}}>
                     <p className="teamname">Harshit Raj</p>
                     <img src={harshit} height="200" width="200" style={{marginTop:10, borderRadius:5}} />
                    <SocialIcon target="blank" url="https://instagram.com/harshitraj_2203?igshid=ka4h04yzgtpc" bgColor="black" style={{ margin:10, height: 50, width: 50 }} />
@@ -66,7 +66,7 @@ class Resume extends Component {
                   style={{ width: 250, height:400, margin:20 }} /// these are optional style, it is not necessary
                 >
                   <BackSide
-                    style={{backgroundColor: '#430066', textAlign:'center',paddingTop:180, fontSize:20, color:'white'}}
+                    style={{backgroundColor: '#41669d', textAlign:'center',paddingTop:180, fontSize:20, color:'white'}}
                   >
                     Event Management Head
                   </BackSide>
