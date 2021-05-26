@@ -19,12 +19,14 @@ class Contact extends Component {
     }
 
     return (
-      <section id="contact" style={{backgroundColor:this.props.colorinfo}}>
+      <section id="contact">
          
          <Container>
             
 
-         
+         <div className="row">
+         <h2 className="headings1" style={{color:'#b933ff', fontSize:50}}>Contact Us</h2>
+         </div>
 
          <div className="row">
             <div className="eight columns">
@@ -34,7 +36,7 @@ class Contact extends Component {
                
                   <div>
 						   
-						   <input type="text" defaultValue="" placeholder="Name" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input className="conta" type="text" defaultValue="" placeholder="Name" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
               
                   <div>

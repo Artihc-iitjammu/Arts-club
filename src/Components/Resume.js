@@ -24,7 +24,7 @@ class Resume extends Component {
     return (
       <section id="resume">
         <div className="container">
-        <h1 style={{fontSize:50, textAlign:'center'}}>Events</h1>
+        <h1 style={{fontSize:50, textAlign:'center',fontFamily:'Impact',color:'#1a1a1a'}}>Our Team</h1>
       <div className="rowresume" style={{display:'flex', flexWrap:'wrap'}}>
         
           <div className="col-md-4 col-sm-6 col-xs-12" > 

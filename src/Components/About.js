@@ -4,30 +4,18 @@ import './team.css';
 class About extends Component {
   render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
-    }
+    
 
     return (
       <section id="about">
       <div  className="row">
-         <div className="three columns">
-            <img className="profile-pic"  src={logo} alt="Artihc logo" />
-         </div>
-         <div className="nine columns main-col">
+      <div className="one columns main-col">
+        </div>
+         <div className="eleven columns main-col">
 
-            <h1 style={{color:'white', fontSize:50,fontFamily:'Times New Roman'}}><u><i> About us </i></u></h1>
+            <h1 className="headings" style={{color:'#b933ff', fontSize:50,textAlign:'left'}}><i> About us </i></h1>
 
-            <p style={{color:'white',fontSize:20,fontFamily:'yellowtail'}} font>The Artihc Club is a place for practicing artists to improvise
+            <p className="abouti">The Artihc Club is a place for practicing artists to improvise
                 skills, develop techniques and collaborate with other art
                 enthusiasts through group events that will beautify not only the
                 college but also the community.

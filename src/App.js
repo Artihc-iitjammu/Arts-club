@@ -7,6 +7,8 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
+import DemoCarousel from './Components/Carousel';
+import Testcard from './Components/Testcard.js';
 import ParticlesBg  from "particles-bg";
 import { ParallaxProvider } from 'react-scroll-parallax';
 import './Components/team.css';
@@ -36,7 +38,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <nav id="nav-wrap" style={{backgroundColor:'#1a1a1a'}}>
+      <nav id="nav-wrap" style={{backgroundColor:'#333333'}}>
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation" >Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
@@ -56,8 +58,9 @@ class App extends Component {
       
         <Header/>
         <About/>
-        <Resume/>
+        <Testcard/>
         <Portfolio/>
+        <DemoCarousel/>
          <Contact/>
         <Footer/>
         

@@ -25,7 +25,9 @@ class Portfolio extends Component {
     return (
       <section id="portfolio">
         <Container>
-          <h1 style={{fontSize:50}}>Events</h1>
+          <div className="row">
+          <h2 className="headings1" style={{color:'#b933ff', fontSize:50}}><i>Our Events</i></h2>
+          </div>
           <Row xs={1} md={4} lg={12}>
             <img className="eventsimage" src={events1} height="400" width="300" style={{margin:20, borderRadius:5}} />
             <img className="eventsimage" src={events2} height="400" width="300" style={{margin:20, borderRadius:5}} />

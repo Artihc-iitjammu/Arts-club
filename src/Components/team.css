@@ -1,14 +1,11 @@
 .teamname{
 font-size: 30px;
-font-style:oblique;
+
 
 }
 #contact{
-    background-image: url('./1.png');
-    background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: linear-gradient(to bottom ,#340066, #430066,#7c00ff , #b933ff );
+    
     
 }
 #home{
@@ -20,8 +17,17 @@ font-style:oblique;
   background-size: cover;
 }
 #about{
-    background-image: linear-gradient(to bottom, #7c00ff 70% , #b933ff);
     
+    background-image: linear-gradient(to bottom ,#340066, #430066);
+    
+}
+.abouti{
+    font-size: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.headings{
+    font-family:Impact;
+    text-align: center;
 }
 #portfolio{
     background-image: linear-gradient(to bottom , #4e0099 , #430066 , #340066);
@@ -33,6 +39,7 @@ font-style:oblique;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 
 }
 #footer{
@@ -69,6 +76,38 @@ background-image: linear-gradient(to bottom, #b933ff , #7c00ff , #4e0099);
     background-color: red;
     height:50px;
     width: 50px;
+}
+.conta{
+    background-color: #1a1a1a;
+}
+.carousel{
+    margin-top: 7%;
+    
+}
+.caro{
+    height:100%;
+    width:80%;
+}
+#carousel{
+    background-image: url('./1.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.legend{
+    opacity: .0001;
+}
+.headings1{
+    font-family:Impact;
+    text-align: center;
+    margin-bottom: 5%;
+    
+
+}
+.round{
+    border-radius: 15px;
+    
 }
 
 
