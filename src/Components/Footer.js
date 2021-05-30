@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './team.css'
 
 class Footer extends Component {
   render() {
@@ -10,21 +11,21 @@ class Footer extends Component {
     }
 
     return (
-      <footer style={{backgroundColor:this.props.colorinfo, display:'flex', justifyContent:'center'}}>
+      <footer style={{ display:'flex', justifyContent:'center'}} id="footer">
 
      <div className="row">
         <div className="twelve columns">
-           <ul className="social-links">
+           <ul className="social-links" style={{color:'white'}}>
               {networks}
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright Arts Club IIT Jammu</li>
-              <li>Designed by Tarun Sharma and Vishal Sharma</li>
+              <li style={{color:'white'}}>&copy; Copyright Arts Club IIT Jammu</li>
+              <li style={{color:'white'}}>Designed by Tarun Sharma and Vishal Sharma</li>
            </ul>
 
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
+        
      </div>
   </footer>
     );

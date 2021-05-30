@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container } from 'react-bootstrap';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
+import './team.css';
 
 class Contact extends Component {
   render() {
@@ -18,12 +19,14 @@ class Contact extends Component {
     }
 
     return (
-      <section id="contact" style={{backgroundColor:this.props.colorinfo}}>
+      <section id="contact">
          
          <Container>
-            <h1>Contact Us</h1>
+            
 
-         
+         <div className="row">
+         <h2 className="headings1" style={{color:'#b933ff', fontSize:50}}>Contact Us</h2>
+         </div>
 
          <div className="row">
             <div className="eight columns">
@@ -33,7 +36,7 @@ class Contact extends Component {
                
                   <div>
 						   
-						   <input type="text" defaultValue="" placeholder="Name" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input className="conta" type="text" defaultValue="" placeholder="Name" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
               
                   <div>
@@ -70,13 +73,9 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
-					   <h4></h4>
-					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
-					   </p>
+					   <div className="Address">
+                     
+                  </div>
 				   </div>
 
               
