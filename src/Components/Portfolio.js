@@ -28,24 +28,54 @@ class Portfolio extends Component {
           <div className="row">
           <h2 className="headings1" style={{color:'#b933ff', fontSize:50}}><i>Our Events</i></h2>
           </div>
-          <Row xs={1} md={4} lg={12}>
+          <div className="row">
+            <div className="four column">
             <img className="eventsimage" src={events1} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+            <div className="four column">
             <img className="eventsimage" src={events2} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img src={events3} height="400" className="eventsimage" width="300" style={{margin:20, borderRadius:5}} />
-            <img className="eventsimage" src={events7} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img className="eventsimage" src={events8} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img className="eventsimage" src={events9} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+            <div className="four column">
+            <img className="eventsimage" src={events3} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="four column">
             <img className="eventsimage" src={events4} height="400" width="300" style={{margin:20, borderRadius:5}} />
-
-            <img className="eventsimage" src={events5} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+            <div className="four column">
             <img className="eventsimage" src={events10} height="400" width="300" style={{margin:20, borderRadius:5}} />
-            <img className="eventsimage" src={events9} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+            <div className="four column">
             <img className="eventsimage" src={events11} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+          </div>
 
-            <img className="eventsimage" src={events12} height="500" width="300" style={{margin:20, borderRadius:5}} />
-           
-          </Row>
+          <div className="row">
+            <div className="four column">
+            <img className="eventsimage" src={events7} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+            <div className="four column">
+            <img className="eventsimage" src={events8} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+            <div className="four column">
+            <img className="eventsimage" src={events9} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+          </div>
 
+          <div className="row">
+            <div className="four column">
+            <img className="eventsimage" src={events5} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+            <div className="four column">
+            <img className="eventsimage" src={events12} height="400" width="300" style={{margin:20, borderRadius:5}} />
+            </div>
+            <div className="four column">
+            
+            </div>
+          </div>
+          
           
         </Container>
 

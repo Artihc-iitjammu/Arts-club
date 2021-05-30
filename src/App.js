@@ -58,7 +58,7 @@ class App extends Component {
       
         <Header/>
         <About/>
-        <Testcard/>
+        <Resume/>
         <Portfolio/>
         <DemoCarousel/>
          <Contact/>
