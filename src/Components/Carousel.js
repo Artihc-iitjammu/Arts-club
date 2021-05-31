@@ -42,7 +42,7 @@ class DemoCarousel extends Component {
           <Carousel className="carousel">
                 <div>
                     <img src= {f1} className="round"/>
-                    <p className="legend">Rangoli making Compettiion</p>
+                    <p className="legend"></p>
                 </div>
                 <div>
                     <img src= {f2} className="round" />
