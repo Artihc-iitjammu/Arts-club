@@ -4,8 +4,8 @@ font-size: 30px;
 
 }
 #contact{
-    background-image: linear-gradient(to bottom ,#340066, #430066,#7c00ff , #b933ff );
     
+    background-image: linear-gradient(to bottom ,#340066, #430066);
     
 }
 #home{
@@ -43,7 +43,7 @@ font-size: 30px;
 
 }
 #footer{
-    background-image: linear-gradient(to top , #4e0099 , #430066 , #340066, #7c00ff , #b933ff);
+    background-image: linear-gradient(to top , #340066, #430066);
     background-size: 100%;
 }
 .smoothscroll{

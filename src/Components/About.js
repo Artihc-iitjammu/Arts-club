@@ -24,7 +24,7 @@ class About extends Component {
                 'Artihc’, as the club is named, is full of these crazy people you
                 will find doing all sorts of creative stuff. it is not just a club
                 consisting of the most creative people in the institute, it is a
-                family where you learn, teach and enjoy the art of making life
+                family where you learn, teach and enjoy the artlife
                 colourful.</p>
             
          </div>
